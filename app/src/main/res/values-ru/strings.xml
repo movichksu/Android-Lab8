@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Простые числа</string>
+    <string name="error_toast">Чтобы открыть следущую форму, пожалуйста, введите число!</string>
+    <string name="simple_numbers">Простые числа</string>
+    <string name="ok">OK</string>
+    <string name="top_number">Верхнее число</string>
+    <string name="please_enter_the_number">Пожалуйста, введите число. Оно будет верхней границей для поиска простых чисел.</string>
+    <string name="simple_numbers_until">Простые числа до: </string>
+</resources>

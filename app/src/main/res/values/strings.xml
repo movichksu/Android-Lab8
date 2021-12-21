@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="error_toast">Please, enter a number to open the next form!</string>
+    <string name="result_title">Simple numbers:</string>
+    <string name="simple_numbers">Simple numbers</string>
+    <string name="ok">OK</string>
+    <string name="top_number">Top number</string>
+    <string name="please_enter_the_number">Please, enter a number. It will be the upper bound of the list of prime numbers.</string>
+    <string name="simple_numbers_until">There are simple numbers until </string>
+</resources>

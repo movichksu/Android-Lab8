@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="@dimen/indent_24">
+
+        <TextView
+            android:id="@+id/numbersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/numbersInputLayout"
+            style="@style/InputLayoutStyle.Uneditable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/simple_numbers">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/numbersEditText"
+                style="@style/EditText.Uneditable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/okButton"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ok" />
+    </LinearLayout>
+</ScrollView>
